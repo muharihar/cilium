@@ -20,6 +20,7 @@ addons:
   apt:
     packages:
       - kernel-package
+      - clang-10
 
 before_install: ./.travis/prepare.sh
 
